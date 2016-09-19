@@ -1,0 +1,1 @@
+define(function(require,exports,module){"use strict";function SApply(){}var $=require("jquery");SApply.prototype.step2=function(){var copy=$(".scan-copy");$(".ui-radio").each(function(i){$(this).click(function(){i?copy.hide():copy.show()})})},module.exports=new SApply});

@@ -1,0 +1,36 @@
+/*专题页面*/
+/*已选筛选条件*/
+.crumb{height: 50px;line-height: 50px;}
+.crumb .crumbSlide{margin-left: 10px;}
+.crumb .crumbSlide li{float: left;padding-left: 10px;}
+.crumb .crumbLink{float: left;}
+.crumb .crumbArrow{margin-left: 5px;}
+/*广告图*/
+.adImg{height:450px;font-size: 0;}
+/*排序*/
+.sort{height: 50px;line-height: 50px;margin: 25px 0;background: #f2f2f2;}
+.sort a{margin: 0 20px;position: relative;}
+.sort a.cur{color: #ff5c5c;}
+.sort .f-triangle-mt,.sort .f-triangle-mb{position: absolute;border: 4px solid transparent;right: -10px;}
+.sort .f-triangle-mt{border-bottom: 4px solid #806F66;top: 16px;}
+.sort .f-triangle-mb{border-top: 4px solid #806F66;bottom: 15px;}
+.sort .f-triangle-mt.slected{border-bottom-color: #ff5c5c;}
+.sort .f-triangle-mb.slected{border-top-color: #ff5c5c;}
+/*列表*/
+.grid{width: 1160px;padding: 0 20px 20px;background: #f2f2f2;}
+.grid .product{width: 216px;height: 320px;margin-right: 20px;background: #fff;float: left;text-align: center;margin-top: 20px;}
+.grid .product .product-wrap{padding: 20px;}
+.grid .product p{height: 20px;line-height: 20px;}
+.grid .product:hover .productImg{-webkit-transform:translateX(-5px);-moz-transform:translateX(-5px);-o-transform:translateX(-5px);transform:translateX(-5px);}
+.grid .product .productImg{margin: 15px 0;width: 176px;height: 176px;-webkit-transform:none;-moz-transform:none;-o-transform:none;transform:none;-webkit-transition:all .4s ease-out;-moz-transition:all .4s ease-out;-o-transition:all .4s ease-out;transition:all .4s ease-out;}
+.grid .product .national img{width: 30px;vertical-align: middle;}
+.grid .product .national span{margin-left: 10px;}
+.grid .product .productTitle a{width:100%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.grid .product .productPrice{margin-top: 15px;color: #ff5c5c;font-size: 18px;}
+.grid .product .productPrice .price-name{background: #ff5c5c;color: #fff;height: 20px;padding: 0 5px;display: inline-block;margin-right: 10px;font-size: 12px;vertical-align: top;border-radius: 5px;}
+.grid .product .productPrice .price-num{font-style: italic;font-weight: 600;}
+/*每行第五个商品margin为0*/
+.grid .product.mr-0{margin-right: 0;}
+
+/*专题3*/
+.special3{font-size: 0;}

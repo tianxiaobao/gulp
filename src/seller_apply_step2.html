@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>卖家申请-步骤2</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/seller.css">
+	</head>
+<body>
+<!-- 顶部导航开始 -->
+<div class="site-nav">
+	<div class="w clear">
+		<ul class="left clear">
+			<li>欢迎来到蚂蚁海淘</li>
+			<li><a href="#">请登录</a></li>
+			<li><a href="#">快速注册</a></li>
+		</ul>
+		<ul class="right clear">
+			<li class="drop-down">
+				<a href="#" title="">我的商城<b></b></a>
+				<div>
+					<a href="#" title="">已买到的商品</a>
+					<a href="#" title="">我的足迹</a>
+					<a href="#" title="">蚂蚁钱包</a>
+				</div>
+			</li>
+			<li class="drop-down">
+				<a href="#" title="">卖家中心<b></b></a>
+				<div>
+					<a href="#" title="">免费开店</a>
+					<a href="#" title="">已卖出的商品</a>
+					<a href="#" title="">出售中的商品</a>
+				</div>
+			</li>
+			<li class="drop-down">
+				<a href="#" title="">收藏夹<b></b></a>
+				<div>
+					<a href="#" title="">收藏店铺</a>
+					<a href="#" title="">收藏商品</a>
+				</div>
+			</li>
+			<li><a class="mayi-phone" href="#" title="手机蚂蚁">手机海淘</a></li>
+		</ul>
+	</div>
+</div>
+<!-- 顶部导航结束 -->
+<!-- 申请头部开始 -->
+<div class="w seller-head">
+	<img class="logo" src="img/seller-icon1.png">
+</div>
+<!-- 申请头部结束 -->
+<!-- 模块开始 -->
+<div class="w seller-apply">
+	<!-- 申请进度开始 -->
+	<div class="process step-icon2"></div>
+	<!-- 申请进度结束 -->
+	<!-- 店铺信息开始 -->
+	<p class="title"><i class="title-icon1"></i>填写店铺信息</p>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>店铺名称：</label>
+		<input type="text" class="ui-input" placeholder="店铺名称">&nbsp<span class="suffixes">旗舰店</span>
+		<p class="ui-form-explain">店铺名称控制长度不超过20字</p>
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label">主营产品：</label>
+		<textarea class="ui-textarea" cols="50" rows="5"></textarea>
+		<p class="ui-form-explain">主营商品关键字（Tag）有助于搜索店铺时找到您的店铺<br/>关键字最多可输入50字，请用“,”进行分割，例如“男装, 女装, 童装”</p>
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>店铺分类：</label>
+		<select>
+			<option value="-1">请选择</option>
+			<option value="100001">母婴专区</option>
+			<option value="100011">美妆个护</option>
+			<option value="100031">日用百货</option>
+			<option value="100041">食品保健</option>
+		</select>
+	</div>
+	<!-- 店铺信息结束 -->
+	<!-- 联系人信息开始 -->
+	<p class="title"><i class="title-icon2"></i>填写店家信息</p>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>姓名：</label>
+		<input type="text" class="ui-input">
+		<p class="ui-form-explain">中文最多6个字符，英文最多20个字符</p>
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>身份证正面：</label>
+		<div>
+			<div class="show-image">
+				<img src="https://haitao-resource.b0.upaiyun.com/product/44/1469000457578f2b099be9a.jpg">
+				<i></i>
+			</div>
+			<input type="hidden" name="pic[]" value="">
+			<a href="" class="a-upload">上传图片<input type="file"></a>
+		</div>
+		<p class="ui-form-explain">支持PNG，JPG，GIF等基本图片格式</p>
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>身份证反面：</label>
+		<div>
+			<div class="show-image">
+				<img src="https://haitao-resource.b0.upaiyun.com/product/44/1469000457578f2b099be9a.jpg">
+				<i></i>
+			</div>
+			<input type="hidden" data-id="1" name="pic[]" value="">
+			<a href="" class="a-upload">上传图片<input type="file"></a>
+		</div>
+		<p class="ui-form-explain">支持PNG，JPG，GIF等基本图片格式</p>
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>手机：</label>
+		<input type="text" class="ui-input">
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>邮箱：</label>
+		<input type="text" class="ui-input">
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label">QQ：</label>
+		<input type="text" class="ui-input">
+	</div>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>地址：</label>
+		<select id="select_1" name="select_1">
+			<option value="">--请选择--</option>
+			<option value="1|1">北京市</option>
+			<option value="2|1">天津市</option>
+		</select>
+		<select id="select_2" name="select_2" class="hidden"></select>
+		<select id="select_3" name="select_3" class="hidden"></select>
+		<select id="select_4" name="select_4" class="hidden"></select>
+	</div>
+	<!-- 联系人信息结束 -->
+	<!-- 合同信息开始 -->
+	<p class="title"><i class="title-icon3"></i>合同信息</p>
+	<div class="ui-form-item">
+		<label class="ui-label"><em>*</em>合同签署状态：</label>
+		<div class="radio-group">
+			<label><input type="radio" name="wp_type" value="1" class="ui-radio" checked="checked">在线签署</label>
+			<label><input type="radio" name="wp_type" value="2" class="ui-radio">已签署合同</label>
+		</div>
+	</div>
+	<div class="ui-form-item scan-copy">
+		<label class="ui-label"><em>*</em>合同扫描件：</label>
+		<div>
+			<div class="show-image">
+				<img src="https://haitao-resource.b0.upaiyun.com/product/44/1469000457578f2b099be9a.jpg">
+				<i></i>
+			</div>
+			<input type="hidden" data-id="1" name="pic[]" value="">
+			<a href="" class="a-upload">上传图片<input type="file"></a>
+		</div>
+		<p class="ui-form-explain"><a href="">电子版合同点击此处下载</a></p>
+		<p class="ui-form-explain">扫描件，复印件需加盖公章，支持PNG，JPG，GIF等基本图片格式</p>
+	</div>
+	<!-- 合同信息结束 -->
+	<div class="ui-form-item">
+        <button type="submit" class="ui-button">保存，下一步</button>
+    </div>
+</div>
+<!-- 模块结束 -->
+<!-- footer开始 -->
+<div class="footer">
+	<div class="w footer-content">
+		<div class="footer-logo">
+			<a href="" class="logo-img"></a>
+			<p>客服电话<span class="tel-no">400-010-1977</span></p>
+			<p>周一到周日09:00-18:00</p>
+			<a href="" class="suggest">问题反馈</a>
+		</div>
+		<div class="footer-rcode">
+			<img src="img/icon7.jpg" class="rcode-img">
+			<p class="rcode-title">扫一扫，品质在手</p>
+		</div>
+		<ul class="footer-link">
+			<li class="first">
+				<h3>服务保障</h3>
+				<p><a href="" target="_blank">正品保障</a></p>
+				<p><a href="" target="_blank">海外直供</a></p>
+				<p><a href="" target="_blank">环球必达</a></p>
+				<p><a href="" target="_blank">国内退货</a></p>
+				<p><a href="" target="_blank">七天放心退</a></p>
+			</li>
+			<li>
+				<h3>服务保障</h3>
+				<p><a href="" target="_blank">正品保障</a></p>
+				<p><a href="" target="_blank">海外直供</a></p>
+				<p><a href="" target="_blank">环球必达</a></p>
+				<p><a href="" target="_blank">国内退货</a></p>
+				<p><a href="" target="_blank">七天放心退</a></p>
+			</li>
+			<li>
+				<h3>服务保障</h3>
+				<p><a href="" target="_blank">正品保障</a></p>
+				<p><a href="" target="_blank">海外直供</a></p>
+				<p><a href="" target="_blank">环球必达</a></p>
+				<p><a href="" target="_blank">国内退货</a></p>
+				<p><a href="" target="_blank">七天放心退</a></p>
+			</li>
+			<li class="last">
+				<h3>服务保障</h3>
+				<p><a href="" target="_blank">正品保障</a></p>
+				<p><a href="" target="_blank">海外直供</a></p>
+				<p><a href="" target="_blank">环球必达</a></p>
+				<p><a href="" target="_blank">国内退货</a></p>
+				<p><a href="" target="_blank">七天放心退</a></p>
+			</li>
+		</ul>
+	</div>
+	<div class="w copyright">
+		<p>© 2015-2016 蚂蚁在线(北京)科技有限公司 |  京ICP备15039996号-4 |  京ICP证160637号</p>
+		<p>地址：北京市朝阳区东大桥路甲8号尚都国际中心A座1815 | 电话:400-010-1977</p>
+	</div> 
+</div>
+<!-- footer结束 -->
+<script src="js/pc/seajs/sea.js"></script>
+<script>
+seajs.config({
+	base: "./js",
+	alias: {
+		"jquery": "pc/jquery/jquery-1.12.3.min.js"
+	}
+});
+seajs.use(["./js/seller-apply.js","./js/upimg.js","./js/district.js"],function (SApply) {
+	SApply.step2();
+});
+</script>
+</body>
+</html>

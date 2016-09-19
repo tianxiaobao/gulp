@@ -1,0 +1,65 @@
+/*买家中心*/
+.seller{margin:20px auto;overflow: hidden;}
+/*右侧内容*/
+.right-con{width: 1198px;border:1px solid #f2f2f2;min-height: 523px;}
+/*路径*/
+.right-con .path{margin: 20px;padding-bottom:10px;border-bottom: 1px solid #f2f2f2;}
+/*退款页面服务热线*/
+.right-con .path .tel{float: right;color: #ff5c5c;padding-left: 20px;background: url(../img/icon19.png)no-repeat;}
+/*右侧主内容*/
+.right-con .main{padding: 0 20px;}
+/*退款申请*/
+.apply-left{float: left;}
+.apply-left .title{font-size: 18px;line-height: 40px;padding-left: 25px;font-weight: normal;background: url(../img/icon20.png)0 no-repeat;margin-bottom: 10px;}
+.apply-right{float: right;width: 260px;border:1px solid #f2f2f2;}
+.apply-right .title{height: 40px;line-height: 40px;font-weight: normal;padding-left: 20px;border-bottom: 1px solid #f2f2f2;}
+.apply-right table{margin:15px;width: 230px;}
+.apply-right .item-img{width: 70px;height: 70px;float: left;border: 1px solid #f2f2f2;}
+.apply-right .item-title{float: right;width: 140px}
+/*申请退款失败*/
+.apply-left .apply-text{padding-bottom:20px;margin:0 0  20px 20px;}
+.apply-left .apply-text p{height: 25px;line-height: 25px;}
+.apply-left .apply-but{margin-left: 20px;}
+.apply-left .apply-but a{width: 90px;height: 40px;line-height: 40px;color: #fff;background: #ff5c5c;text-align: center;margin: 0 10px;border-radius: 5px;}
+.apply-left .apply-but a.refuse{background: #f2f2f2;color: #666;}
+
+/*申请成为卖家步骤*/
+.seller-head .logo{width: 303px;height: 56px;padding: 22px 0;}
+.seller-apply{margin-bottom: 20px;}
+/*开店第三步内容不足撑起*/
+@media screen and (min-width:1900px){
+   .seller-apply{min-height: 484px;}
+}
+/*申请进度*/
+.seller-apply .process{background: #f9f9f9;height: 100px;background-image:url(../img/seller-step.png);background-repeat:no-repeat;}
+.step-icon2{background-position: 0 0 !important;}
+.step-icon2{background-position: 0 -100px !important;}
+.step-icon3{background-position: 0 -200px !important;}
+/*申请小标题*/
+.seller-apply .title{font-size: 16px;height: 40px;line-height: 40px;background: #f9f9f9;margin: 15px 0;padding-left: 25px;}
+.title-icon1,.title-icon2,.title-icon3{display: inline-block;width: 20px;height: 22px;background: url(../img/seller-icon2.png) no-repeat;background-size: 100%;margin-right:5px;vertical-align: middle;}
+.title-icon1{background-position:0 0;}
+.title-icon2{background-position:0 -22px;}
+.title-icon3{background-position:0 -65px;}
+/*申请表单样式*/
+.ui-form-item{padding:0 0 20px 170px;}
+.ui-form-item .ui-label{width: 155px;margin-left: -170px;float: left;text-align: right;padding-top:5px;}
+.ui-form-item .ui-radio{vertical-align: top;margin: 2px 0 0;}
+.ui-form-item .ui-input{padding: 5px;border:1px solid #eee;width: 240px;}
+.ui-form-item .ui-form-explain{padding: 5px 0 0;color: #B2B2B2;}
+.ui-form-item .ui-button{background-color: #f9f9f9;width:180px;height:40px;border-radius: 3px;color: #666;border: 1px solid #eee;cursor: pointer;}
+.seller-apply select{border-color: #eee;color: #666;padding: 4px;}
+.seller-apply select.hidden{display: none;}
+.seller-apply .radio-group{padding-top: 5px;}
+.seller-apply .radio-group label{margin-right: 10px;}
+/*申请进度的内容*/
+.seller-apply .content{text-align: center;margin: 60px auto;}
+.seller-apply .content h3{height: 40px;line-height: 40px;}
+.seller-apply .content .color-red{color: #ff5c5c;}
+/*上传图片样式*/
+.a-upload{padding: 5px;width:150px;height: 20px;line-height: 20px;text-align:center;position: relative;cursor: pointer;border: 1px solid #ccc;border-radius: 3px;overflow: hidden;}
+.a-upload input{position: absolute;font-size: 20px;right: 0;top: 0;opacity: 0;filter: alpha(opacity=0);}
+.a-upload:hover{color: #666;}
+/*上传显示图片*/
+.seller-apply .show-image{width: 150px;height: 150px;margin: 0 0 10px 0;position: relative;}
+.seller-apply .show-image i{display: inline-block;position: absolute;top: 0;right: 0;height: 20px;width: 20px;background: url(../img/seller-icon4.png) no-repeat;z-index: 1;cursor: pointer;}
