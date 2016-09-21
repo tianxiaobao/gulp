@@ -75,4 +75,4 @@ gulp.task('jsConcat',function(){
         .pipe(gulp.dest('dist/js'));
 });
 //默认任务
-gulp.task('default', ['cssMin','htmlMin','imageMin','jsMin','jsConcat']);
+gulp.task('default', ['cssMin','htmlMin','imgMin','jsMin']);
