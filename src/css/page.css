@@ -1,0 +1,29 @@
+/*开店申请*/
+.lrtk{height:1080px;display:none;overflow: hidden;}
+.lrtk .up,.lrtk .down{display:block;width:120px;height:12px;background:url(../img/page1-arrow.jpg) no-repeat left bottom; position:absolute; left:50%; top:1068px; z-index:20; margin-left:-60px;}
+.lrtk .down{background-position: left top;top:88px;}
+.lrtk .bgimg,.lrtk .smimg{max-width: none;left: 50%;margin-left: -960px;position: relative;}
+.lrtk .link{position: absolute;top: 440px;margin-left: -600px;left: 50%;text-align: center;display: none;}
+.lrtk .link .left{float: left;margin-left: 80px;text-align: center;}
+.lrtk .link a{height: 70px;line-height: 70px;width: 236px;color: #fff;font-size: 28px;border: 2px solid #fff;border-radius: 40px;margin-bottom: 20px;}
+.lrtk .link p{height: 30px;line-height: 30px;color: #ffbab8;font-size: 18px;}
+.lrtk .link .right{float: left;margin-left: 20px;}
+.lrtk .link a:hover{color: #ff6761;background: #fff;cursor: pointer;}
+.lrtk .link a:hover + div p{color : #ffe5e4;}
+.lrtk .page1-2{display: none;width: 1920px;position: relative;left: 50%;margin-left: -960px;font-size: 0;}
+.lrtk .page1-2 .button{width: 220px;height: 40px;top: 30px;position: absolute;background:url(../img/page1-button.png) no-repeat;margin-left: 120px;}
+.lrtk .page1-2 .button.left{background-position: -12px -55px;}
+.lrtk .page1-2 .button.right{margin-left: 360px;background-position: -239px -8px;}
+.lrtk .page1-2 .button.left:hover{background-position: -12px -8px;cursor: pointer;}
+.lrtk .page1-2 .button.right:hover{background-position: -239px -55px;cursor: pointer;}
+/*成为大咖*/
+.page2{max-width: 1920px;position: relative;left: 50%;margin-left: -960px;font-size: 0;}
+.page2-kind{width: 1200px;margin-bottom: 70px;}
+.page2-kind .items li{float: left;cursor: pointer;}
+.page2-kind .mr11{margin-right: 11px;}
+.page2-kind .mr10{margin-right: 10px;}
+.page2-kind .item-child li{width: 290px;height: 70px;line-height: 70px;text-align: center;font-size: 20px;color: #ff5c5c;border: 1px solid #ff5c5c;float: left;margin-top: 10px;}
+/*成为小咖*/
+.busi-container .busi-banner{width: 1920px;left: 50%;position: relative;margin-left: -960px;}
+.busi-container img{width: 100%;display: block;}
+.busi-container .busi-content{width: 1200px;margin: 0 auto;}
